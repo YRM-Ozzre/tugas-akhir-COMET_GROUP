@@ -1,0 +1,179 @@
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+
+        body { 
+            background-image: url("comet.jpg");
+            background-size:auto;
+            background-margin: justify;
+            background-color: orange
+        }
+        .login img {
+            width: 100%;
+            height: 120px;
+            border-radius: 40%;
+            margin-top: 15px;
+        }
+
+        .login-header h2 {
+            font-size: 20px;
+            margin: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f1f5f9;
+            padding: 20px;
+        }
+
+        .card-utama {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px #00000015;
+        }
+
+        .container-card {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+        }
+
+        .card-produk {
+            border: 1px solid #e2e8f0;
+            border-radius: 10px;
+            overflow: hidden;
+            background: rgb(255, 255, 255);
+        }
+
+        .card-produk img {
+            width: 100%;
+            height: 130px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .data-produk {
+            padding: 12px;
+        }
+
+        .data-produk h3 {
+            font-size: 16px;
+            margin: 0 0 8px;
+        }
+
+        .data-produk p {
+            font-size: 13px;
+            color: #64748b;
+            margin: 5px 0;
+        }
+
+        .harga {
+            font-size: 16px;
+            color: #2563eb !important;
+            font-weight: bold;
+        }
+
+        @media (max-width: 600px) {
+            .container-card {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #f8f9fa;
+        }
+
+        .logo img {
+            height: 40px;
+        }
+
+        button {
+            margin: 5px;
+        }
+
+        b {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+        }
+
+        .container {
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+            justify-content: center; 
+            min-height: 100vh;
+        }
+        .logo{
+             width: 75px;
+            height: auto;
+            margin: auto;
+        }
+
+    </style>
+</head>
+<body style="background-image: url('comet.jpg'); background-size: cover;">
+
+
+    <center>
+        <img src="logosmk.webp" class="logo" alt="Logo SMK">
+        <img src="Logo Merdeka Belajar merah solid-07.jpg" class="logo" alt="Logo2">
+    </center>
+    <br>
+    
+    <b align="center" style="color: white; font-size: 30px;">COMET</b> <b align="center" style="font-size: 13px; display: flex; justify-content: center; gap: 5px; color: white;"><i>Kerja sama pasti mempercepat hasil, bukan mengkhianati hasil</i>
+    </b>
+    
+    <br>
+
+    <div class="container-card">
+        <div class="card-produk">
+            <img src="unnamed.jpg" alt="Foto Produk 1">
+            <div class="data-produk">
+                <h3>Yanuar Rizky Maulana</h3>
+                <p>Nisn-0094050058</p>
+                <p>Jabatan Grup: Group Leader</p>
+                <a href="https://www.youtube.com/@MrOzzre"><button type="button" class="btn btn-primary" style="background-color: red; color: white;">YOUTUBE</button></a>
+            </div>
+        </div>
+        <div class="card-produk">
+            <img src="IMG_2032.jpeg" alt="Foto Produk 2">
+            <div class="data-produk">
+                <h3>Rezha Gemilang W.R</h3>
+                <p>Nisn-0103253252</p>
+                <p>Jabatan Grup: Coding 1</p>
+                <a href="https://www.tiktok.com/@wyllyeppyepp"><button type="button" class="btn btn-primary" style="background-color: rgb(17, 16, 16); color: white;">Tiktok</button></a>
+            </div>
+        </div>
+        <div class="card-produk">
+            <img src="IMG20260420131436_00.jpg" alt="Foto Produk 3">
+            <div class="data-produk">
+                <h3>Vicko Ernanda Setyawan</h3>
+                <p>Nisn-0098676692</p>
+                <p>Jabatan Grup: Coding 2</p>
+                <a href="https://tiktok.com/@pikononklep"><button type="button" class="btn btn-primary" style="background-color: rgb(17, 16, 16); color: white;">Tiktok</button></a>
+            </div>
+        </div>
+        <div class="card-produk">
+            <img src="https://placehold.co/300x200?text=Foto4" alt="Foto Produk 4">
+            <div class="data-produk">
+                <h3>Debby Cintya Devi</h3>
+                <p>Nisn-0094979101</p>
+                <p>Jabatan Grup: Jaringan</p>
+                <a href="https://www.instagram.com/cnty017?obrf=NzBydDN4dmhlMmp2"><button type="button" class="btn btn-primary" style="background-color: rgb(202, 107, 107); color: white;">Instagram</button></a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <p align="right"><a href="login.html"><button>Kembali</button></a></p>
+</body>
+</html>
